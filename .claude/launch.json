@@ -1,0 +1,10 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kb-app",
+      "url": "http://localhost:8123",
+      "port": 8123
+    }
+  ]
+}

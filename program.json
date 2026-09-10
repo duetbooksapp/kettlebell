@@ -1,0 +1,459 @@
+{
+  "name": "12-Week Kettlebell Progression (Scaled)",
+  "version": 1,
+  "bellsLb": [
+    20,
+    40
+  ],
+  "warmup": {
+    "durationSec": 240,
+    "items": [
+      "Cat-cow x 10",
+      "Glute bridges x 15",
+      "Bodyweight hinges x 10",
+      "Goblet squats x 8",
+      "20 easy swings with the 20 lb bell"
+    ]
+  },
+  "cooldown": {
+    "durationSec": 120,
+    "items": [
+      "Supine 90/90 breathing x 10 breaths",
+      "Half-kneeling hip flexor stretch, 45s per side"
+    ]
+  },
+  "rules": [
+    "Hinge, never squat the swing.",
+    "Stop each set 2 reps short of where form would break.",
+    "Bell stops at chest height. No overhead.",
+    "Ribs down, sharp exhale at the top of every rep.",
+    "If the lower back rounds, the set is over.",
+    "Bail-out: drop to the 20 lb bell and finish clean."
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 8,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 5,
+          "reps": 15,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 4,
+          "repsPerArm": 6,
+          "restSec": 75,
+          "weightLb": 20,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 9,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 5,
+          "reps": 16,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 4,
+          "repsPerArm": 7,
+          "restSec": 75,
+          "weightLb": 20,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 10,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 6,
+          "reps": 15,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 5,
+          "repsPerArm": 6,
+          "restSec": 75,
+          "weightLb": 20,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "deload": true,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 7,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 4,
+          "reps": 15,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 4,
+          "repsPerArm": 5,
+          "restSec": 75,
+          "weightLb": 20,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 10,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 6,
+          "reps": 16,
+          "restSec": 60,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 5,
+          "repsPerArm": 7,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 11,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 6,
+          "reps": 17,
+          "restSec": 60,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 5,
+          "repsPerArm": 8,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 12,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 6,
+          "reps": 18,
+          "restSec": 60,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 6,
+          "repsPerArm": 7,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "deload": true,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 8,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 5,
+          "reps": 15,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 4,
+          "repsPerArm": 7,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 12,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 6,
+          "reps": 19,
+          "restSec": 60,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 6,
+          "repsPerArm": 8,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 13,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 6,
+          "reps": 20,
+          "restSec": 60,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 6,
+          "repsPerArm": 9,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Volume EMOM",
+          "type": "emom",
+          "sets": 14,
+          "reps": 10,
+          "intervalSec": 60,
+          "weightLb": 40,
+          "note": "Start a set at the top of each minute. Rest the remainder."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Density",
+          "type": "straight",
+          "sets": 7,
+          "reps": 18,
+          "restSec": 60,
+          "weightLb": 40,
+          "note": "Fixed rest between sets. Rest never drops below 60s."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — One-arm swings",
+          "type": "unilateral",
+          "sets": 7,
+          "repsPerArm": 8,
+          "restSec": 75,
+          "weightLb": 40,
+          "note": "Right arm then left arm = one set."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "deload": false,
+      "days": [
+        {
+          "id": "mon",
+          "label": "Monday — Test",
+          "type": "forTime",
+          "targetReps": 150,
+          "weightLb": 40,
+          "note": "150 two-hand swings for time. Break into sets as needed."
+        },
+        {
+          "id": "wed",
+          "label": "Wednesday — Rest",
+          "type": "rest",
+          "note": "No session."
+        },
+        {
+          "id": "fri",
+          "label": "Friday — Test",
+          "type": "unilateralForTime",
+          "targetRepsPerArm": 60,
+          "weightLb": 40,
+          "note": "60 per arm for time. Alternate arms in sets."
+        }
+      ]
+    }
+  ]
+}

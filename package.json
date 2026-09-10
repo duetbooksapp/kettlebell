@@ -1,0 +1,10 @@
+{
+  "name": "kettlebell-progression-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test js/",
+    "serve": "python3 -m http.server 8123"
+  }
+}
